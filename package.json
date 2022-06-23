@@ -1,0 +1,23 @@
+{
+  "name": "june22",
+  "version": "1.0.0",
+  "description": "Node.js gi",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaalaina/NodeJSGI.git"
+  },
+  "author": "Alaina Harris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaalaina/NodeJSGI/issues"
+  },
+  "homepage": "https://github.com/aaalaina/NodeJSGI#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

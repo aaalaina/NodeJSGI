@@ -1,9 +1,6 @@
 //express api line
 const express = require('express');
-const http = require('http');
-const fs = require('fs');
-const data = fs.readFileSync('.hard.json');
-const dataStr = JSON.parse(data);
+const data = require("./hard.json")
 //express api line
 const app = express();
 
